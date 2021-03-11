@@ -17,3 +17,7 @@ Include .apk file for Android.
 
   * run ```npm react-native run-android``` in terminal on folder contact
   * You are about to go
+
+## Photos
+
+![alt text](https://1.bp.blogspot.com/-Kq_CBWeh1nc/YEmVDUujncI/AAAAAAAABis/G5B3pLPgqAEy2bBFjeiVhGupa-z78UN7wCLcBGAsYHQ/s2048/contact_one.jpg)
