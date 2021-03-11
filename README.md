@@ -20,6 +20,4 @@ Include .apk file for Android.
 
 ## Photos
 
-![alt text](https://1.bp.blogspot.com/-Kq_CBWeh1nc/YEmVDUujncI/AAAAAAAABis/G5B3pLPgqAEy2bBFjeiVhGupa-z78UN7wCLcBGAsYHQ/s2048/contact_one.jpg)
-
-<img src="https://1.bp.blogspot.com/-Kq_CBWeh1nc/YEmVDUujncI/AAAAAAAABis/G5B3pLPgqAEy2bBFjeiVhGupa-z78UN7wCLcBGAsYHQ/s2048/contact_one.jpg" width="100" height="100">
+<img src="https://1.bp.blogspot.com/-Kq_CBWeh1nc/YEmVDUujncI/AAAAAAAABis/G5B3pLPgqAEy2bBFjeiVhGupa-z78UN7wCLcBGAsYHQ/s2048/contact_one.jpg" width="200" height="800">
