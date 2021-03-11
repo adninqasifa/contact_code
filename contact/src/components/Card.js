@@ -84,19 +84,6 @@ const Card = ({photo, firstName, lastName, age}) => {
 export default Card;
 
 const styles = StyleSheet.create({
-  boxWithShadow: {
-    flex: 1,
-    alignItems: 'center',
-    //flexDirection: 'row',
-    shadowColor: 'white',
-    //shadowOffset: {width: 0, height: 1},
-    shadowOpacity: 0.5,
-    shadowRadius: 20,
-    elevation: 7,
-    //height: 200,
-    //width: 500,
-    marginVertical: 10,
-  },
   border: {
     flex: 1,
     flexDirection: 'row',

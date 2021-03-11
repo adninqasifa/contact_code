@@ -2,9 +2,7 @@ import React, {useState, useEffect} from 'react';
 import {StyleSheet, Text, View, FlatList, TextInput} from 'react-native';
 import Card from '../components/Card';
 import {useSelector, useDispatch} from 'react-redux';
-//import axios from 'axios';
 import {fetch_api} from '../store/actions';
-import Entypo from 'react-native-vector-icons/Entypo';
 import {
   widthPercentageToDP as wp,
   heightPercentageToDP as hp,
@@ -13,10 +11,8 @@ import {
 const MainPage = (props) => {
   const [kontak, setKontak] = useState([]);
   const dispatch = useDispatch();
-  const {data, loading, error} = useSelector((state) => state.details);
+  const {data} = useSelector((state) => state.details);
   //console.log('==>', data);
-  const detailsContact = useSelector((state) => state.details);
-  //console.log('==>', detailsContact);
 
   const dispatchRedux = () => {
     dispatch(fetch_api());
@@ -53,33 +49,6 @@ const MainPage = (props) => {
     <View style={styles.container}>
       <View style={styles.header}>
         <Text style={styles.textHeader}>CONTACT</Text>
-      </View>
-
-      <View>
-        <View style={styles.iconSearch}>
-          <Entypo name="magnifying-glass" size={25} color="black" />
-        </View>
-
-        <TextInput
-          placeholder="Search"
-          style={styles.searchbar}
-          lightTheme
-          default
-          placeholderTextColor="black"
-          onChangeText={(text) => {
-            let aaaa = kontak.filter((e) =>
-              e.firstName.toLowerCase().includes(text.toLowerCase()),
-            );
-            console.log('ini testing 2', kontak);
-
-            if (text.length === 0) {
-              setKontak(detailsContact);
-              console.log('hahaha', detailsContact);
-            } else {
-              setKontak(aaaa);
-            }
-          }}
-        />
       </View>
       {kartu()}
     </View>
@@ -118,7 +87,8 @@ const styles = StyleSheet.create({
   },
   iconSearch: {
     position: 'absolute',
-    right: wp('5%'),
-    top: hp('6%'),
+    right: wp('2%'),
+    top: hp('2%'),
+    zIndex: 1,
   },
 });

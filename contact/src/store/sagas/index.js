@@ -2,13 +2,12 @@ import axios from 'axios';
 import {put, call, takeLatest} from 'redux-saga/effects';
 import {SAGA, ACTION} from '../types';
 
-//const ASCII_API = 'https://jsonplaceholder.typicode.com/users'
-const ASCII_API = 'https://simple-contact-crud.herokuapp.com/contact';
+const LINK_API = 'https://simple-contact-crud.herokuapp.com/contact';
 
 const fetching = () => {
   return axios({
     method: 'GET',
-    url: ASCII_API,
+    url: LINK_API,
   })
     .then(({data}) => data.data)
     .catch((err) => err.message);

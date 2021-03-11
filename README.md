@@ -3,8 +3,17 @@
 A Simple Contact Apps for Android React Native.
 This is Frontend Coding Test from PT Code Development Indonesia (Code.id)
 
-### Features:
+I use this API in (https://simple-contact-crud.herokuapp.com/documentation)
 
-* Redux Saga
-* Modal
-* Unit Testing
+Include .apk file for Android.
+
+## Features:
+
+  * Redux Saga
+  * Modal
+  * Axios
+
+## Instruction
+
+  * run ```npm react-native run-android``` in terminal on folder contact
+  * You are about to go

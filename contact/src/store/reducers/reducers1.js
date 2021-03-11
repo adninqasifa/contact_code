@@ -1,9 +1,7 @@
 import {ACTION} from '../types';
-//import {database} from '../../components/database';
 
 const initialState = {
   loading: false,
-  //data: database,
   data: [],
   error: '',
 };
